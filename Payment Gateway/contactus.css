@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+  }
+body {
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	background: url(images/donate.png);
+	height: 750px;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	align: center;
+  }
+.contact-title{
+	margin-top: 90px;
+	color: #0e0e0e;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+.contact-title h1{
+	font-size: 45px;
+	line-height: 50px;
+	font: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+	text-align: "center";
+	margin: auto;
+}
+.form-control{
+	width: 600px;
+	position: center;
+	background: transperent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid rgb(6, 97, 36);
+	color:black;
+	font-size: 18px;
+	margin-bottom:15px;
+}
+.contact-form{
+	margin: auto;
+	align: "center";
+}
+
+input{
+	height: 45px;
+	color: black;
+}
+form .submit{
+	background: #091783;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit:hover{
+	background-color: #cd1049;
+	cursor: pointer;rgb(10, 64, 243)
+}

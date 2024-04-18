@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+body {
+  background-color: #f0f0f0e2;
+  background-image: url("images/donate.png");
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+}
+.topic {
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.container1 {
+  margin-top: 40px;
+}
+
+.cont1-para {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: #eae6e6cb;
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 22px;
+  text-align: justify;
+  background-color: rgba(245, 245, 245, 0.681);
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.mission-img {
+  width: 100%;
+  height: 100%;
+  padding-left: 70px;
+  border-radius: 5%;
+}
+
+@media screen and (max-width: 900px) {
+  .mission-img {
+    height: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mission-img {
+    height: 70%;
+  }
+}
+@media screen and (max-device-width: 767px) {
+  .mission-img {
+    height: 90%;
+    width: 80%;
+    border-radius: 30px;
+    padding-left: 50%;
+  }
+  .cont1-center {
+    text-align: center;
+  }
+  .cont1-bottom {
+    padding: 0 50px;
+  }
+  .cont1-para {
+    padding-right: 50%;
+    font-size: 25px;
+  }
+}
